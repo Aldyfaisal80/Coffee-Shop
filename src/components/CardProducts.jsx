@@ -15,7 +15,7 @@ export default function CardProducts() {
                     <div>
                         <img className="rounded-[2vh] aspect-square" src={Image1} alt="" />
                     </div>
-                    <Badge.Description title="Indonesia Beans" categorties="Coffee Beans" price="$235.000" icon={<FaShoppingBag className="text-black border border-black p-2 bg-[#e1cc97] rounded-[2vh]" />} cla />
+                    <Badge.Description title="Indonesia Beans" categorties="Coffee Beans" price="$235.000" icon={<FaShoppingBag className="text-black border border-black p-2 bg-[#e1cc97] rounded-[2vh]" />} />
                 </Badge>
                 <Badge>
                     <div>
