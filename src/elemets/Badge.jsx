@@ -10,8 +10,8 @@ const Badge = ({ children }) => {
 const Description = ({ title, categorties, price, icon, className }) => {
     return (
         <div className="text-white mt-[20px]">
-            <span className="font-bold">{title}</span>
-            <span className="text-gray-300 font-light">{categorties}</span>
+            <div className="font-bold">{title}</div>
+            <div className="text-gray-300 font-light">{categorties}</div>
             <span className={`flex justify-between ${className}`}>
                 <span className="font-bold">{price}</span>
                 {icon}

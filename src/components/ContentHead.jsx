@@ -6,7 +6,7 @@ export default function ContentHead() {
     return (
         <main className="flex justify-between bg-white mt-[20px] w-full bg-cover bg-center p-3 font-poppins rounded-[2vh] "
             style={{ backgroundImage: `url(${Image8})` }}>
-            <div className="w-[1/2]">
+            <div className="w-[1/2] sm:ml-[40px]">
                 <div className="text-[1.6rem] sm:text-[3.2rem] mb-[15px]">
                     <span className="flex font-black">Start <p className="ml-[5px] text-orange-600">YOUR</p></span>
                     <span className="flex font-black text-orange-600">DAY<p className="text-black ml-[5px]"> WITH</p></span>
